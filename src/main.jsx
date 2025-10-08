@@ -7,6 +7,7 @@ import Home from "./Component/Home Container/Home/Home";
 import AllApps from "./Component/Apps Container/All Apps/AllApps";
 import AppDetails from "./Component/App Details/AppDetails";
 import ScrollToTop from "./Component/ScrollToTop/ScrollToTop";
+import Error from "./Component/Error/Error";
 
 const router = createBrowserRouter([
   {
@@ -23,20 +24,26 @@ const router = createBrowserRouter([
 
       {
         path: "/apps",
-        loader: () => fetch("Data.json"),
+        loader: async () => {
+          const res = await fetch("/Data.json");
+          return res.json();
+        },
         Component: AllApps,
+      },
+      {
+        path: "/apps/:Id",
+        loader: async () => {
+          const res = await fetch("/Data.json");
+          return res.json();
+        },
+        Component: AppDetails,
       },
 
       {
-        path: "/apps/:Id",
-        loader: () => fetch("/Data.json"),
-        Component: AppDetails,
+        path: "*",
+        Component: Error,
       },
     ],
-  },
-  {
-    path: "*",
-    element: <h1>Page not found this time</h1>,
   },
 ]);
 

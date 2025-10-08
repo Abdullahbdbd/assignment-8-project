@@ -4,6 +4,7 @@ import downloadIcon from '../../assets/icon-downloads.png'
 import ratingsIcon from '../../assets/icon-ratings.png'
 import reviewIcon from '../../assets/icon-review.png'
 import Chart from "./Chart";
+import AppNotFound from "../Error/AppNotFound";
 
 
 const AppDetails = () => {
@@ -11,6 +12,10 @@ const AppDetails = () => {
   const appId = parseInt(Id);
   const data = useLoaderData();
   const singleApp = data.find((app) => app.id === appId);
+
+  if(!singleApp){
+    return <AppNotFound></AppNotFound>
+  }
 
   const {
     image,
@@ -25,7 +30,7 @@ const AppDetails = () => {
 
   return (
     <div className=" w-11/12 mx-auto pt-10">
-      <div className="flex gap-8 w-full">
+      <div className="md:flex gap-8 w-full">
         <img
           src={image}
           className="h-[300px] w-[350px] rounded-lg shadow-2xl"
@@ -39,7 +44,7 @@ const AppDetails = () => {
           </p>
           <hr className="border-t-1 border-[#627382] opacity-40" />
 
-          <div className="mt-10 flex gap-20">
+          <div className="mt-10  md:flex gap-20">
             <div>
              <img src={downloadIcon} alt="" />
               <p className="text-[#627382] text-sm my-2">Downloads</p>
