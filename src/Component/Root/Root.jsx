@@ -7,10 +7,10 @@ const Root = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <div className='bg-[#D2D2D2]'>
+            <div className='bg-[#f3f3f3]'>
                 <Outlet></Outlet>
             </div>
-            {/* <Footer></Footer> */}
+            <Footer></Footer>
         </div>
     );
 };

@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co.com/6Jb1TjVq/chatgpt-logo-chat-gpt-icon-on-green-background-free-vector.jpg",
+    "title": "ChatGPT",
+    "companyName": "OpenAI",
+    "description": "ChatGPT is an AI-powered conversational app that allows users to interact with an advanced language model. It can answer questions, help with coding, generate creative writing, provide learning assistance, and perform a wide range of text-based tasks. The app is designed to understand context, maintain coherent conversations, and offer useful insights. Users can explore educational content, solve complex problems, and even brainstorm ideas. ChatGPT continuously updates to improve accuracy, responsiveness, and safety, making it a powerful tool for both casual and professional use.",
+    "size": 50,
+    "reviews": 100,
+    "ratingAvg": 4.8,
+    "downloads": 500,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 25 },
+      { "name": "4 star", "count": 150 },
+      { "name": "5 star", "count": 460 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://img.freepik.com/premium-vector/vector-tiktok-social-media-logo_1093524-451.jpg?semt=ais_hybrid&w=740&q=80",
+    "title": "TikTok",
+    "companyName": "ByteDance",
+    "description": "TikTok is a global short-video platform that allows users to create, share, and discover engaging short-form videos. It features a wide variety of content including comedy, dance, music, educational videos, and more. The app uses AI to personalize user feeds, promoting content that matches individual interests. TikTok also supports live streaming, duets, challenges, and interactive editing tools, encouraging creativity and social engagement.",
+    "size": 75,
+    "reviews": 250,
+    "ratingAvg": 4.6,
+    "downloads": 200,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 850 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://img.freepik.com/premium-psd/instagram-application-logo_23-2151544088.jpg?semt=ais_hybrid&w=740&q=80",
+    "title": "Instagram",
+    "companyName": "Meta",
+    "description": "Instagram is a social media platform that allows users to share photos, videos, and stories with friends and followers. The app provides features such as Reels, IGTV, filters, messaging, and interactive stickers to engage audiences creatively. Instagram uses AI to suggest content, hashtags, and people to follow. It is widely used for personal expression, business promotion, influencer marketing, and community building.",
+    "size": 80,
+    "reviews": 300,
+    "ratingAvg": 4.7,
+    "downloads": 150,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 1700 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://www.wavetransit.com/wp-content/uploads/2021/08/Facebook-logo.png",
+    "title": "Facebook",
+    "companyName": "Meta",
+    "description": "Facebook is a social networking app that connects people globally. Users can share updates, photos, videos, join groups, create events, and follow pages of interest. The app offers a News Feed, Messenger integration, and Marketplace for buying and selling items. Businesses and creators use Facebook for marketing, community building, and brand promotion.",
+    "size": 90,
+    "reviews": 350,
+    "ratingAvg": 4.4,
+    "downloads": 280,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 1000 },
+      { "name": "5 star", "count": 2200 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://img.freepik.com/premium-vector/green-square-social-media-logo_197792-2919.jpg?semt=ais_hybrid&w=740&q=80",
+    "title": "WhatsApp",
+    "companyName": "Meta",
+    "description": "WhatsApp is a messaging app that enables users to send text messages, voice messages, make voice and video calls, and share images, documents, and locations. It supports group chats, status updates, and end-to-end encryption to ensure privacy. WhatsApp Web allows seamless usage on desktops. Millions of people worldwide rely on WhatsApp for personal, business, and group communications.",
+    "size": 65,
+    "reviews": 400,
+    "ratingAvg": 4.7,
+    "downloads": 500,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 3000 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Temu_logo_icon.svg/1200px-Temu_logo_icon.svg.png",
+    "title": "Temu",
+    "companyName": "Temu Inc.",
+    "description": "Temu is an online shopping platform that offers a wide variety of products ranging from fashion to electronics. Users can browse, compare, and purchase items directly through the app. Temu features flash sales, discounts, and personalized recommendations to enhance shopping experience. The app also includes order tracking, customer reviews, and secure payment options, providing a seamless and convenient shopping experience.",
+    "size": 55,
+    "reviews": 210,
+    "ratingAvg": 4.5,
+    "downloads": 350,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 60 },
+      { "name": "4 star", "count": 100 },
+      { "name": "5 star", "count": 150 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://static.vecteezy.com/system/resources/previews/013/948/546/non_2x/capcut-logo-on-transparent-white-background-free-vector.jpg",
+    "title": "CapCut",
+    "companyName": "ByteDance",
+    "description": "CapCut is a video editing app that allows users to create professional-looking videos with ease. It provides features such as trimming, merging, adding music, filters, transitions, and text overlays. The app also supports speed adjustment, reverse playback, and special effects to enhance video quality. CapCut is widely used for social media content creation, allowing users to produce engaging videos quickly and efficiently.",
+    "size": 60,
+    "reviews": 180,
+    "ratingAvg": 4.6,
+    "downloads": 420,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 50 },
+      { "name": "4 star", "count": 80 },
+      { "name": "5 star", "count": 160 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://img.freepik.com/premium-vector/threads-logo-vector-eps-svg-ai-free-download-threads-app-logotype-logo-threads-instagram-meta_691560-10856.jpg?semt=ais_hybrid&w=740&q=80",
+    "title": "Threads",
+    "companyName": "Meta",
+    "description": "Threads is a messaging and social communication app designed to keep users connected with close friends. It allows for sharing status updates, photos, videos, and messages in a private, focused environment. The app integrates with Instagram for seamless content sharing and offers automatic status updates, activity notifications, and customization options. Threads emphasizes privacy, speed, and convenience for everyday communication among small friend groups.",
+    "size": 45,
+    "reviews": 150,
+    "ratingAvg": 4.4,
+    "downloads": 310,
+    "ratings": [
+      { "name": "1 star", "count": 8 },
+      { "name": "2 star", "count": 12 },
+      { "name": "3 star", "count": 40 },
+      { "name": "4 star", "count": 70 },
+      { "name": "5 star", "count": 120 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://static.vecteezy.com/system/resources/previews/018/910/740/non_2x/telegram-logo-telegram-icon-free-free-vector.jpg",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "description": "Telegram is a cloud-based messaging app that provides fast, secure, and versatile communication. Users can send messages, photos, videos, and files of any type. The app supports group chats, channels, bots, and encrypted messaging for privacy. Telegram also offers cloud storage, cross-platform accessibility, and customizable themes. Millions of users use Telegram for personal communication, professional collaboration, and community engagement.",
+    "size": 70,
+    "reviews": 250,
+    "ratingAvg": 4.7,
+    "downloads": 480,
+    "ratings": [
+      { "name": "1 star", "count": 12 },
+      { "name": "2 star", "count": 18 },
+      { "name": "3 star", "count": 60 },
+      { "name": "4 star", "count": 90 },
+      { "name": "5 star", "count": 220 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://www.logo.wine/a/logo/Snapchat/Snapchat-Logo.wine.svg",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "description": "Snapchat is a multimedia messaging app that allows users to send photos, videos, and messages that disappear after being viewed. It offers Stories, Snap Map, filters, lenses, and augmented reality effects. Users can chat, share content with friends, and explore trending topics. Snapchat focuses on real-time communication, creativity, and fun interactions. Its interface is designed for quick and engaging content sharing, making it popular among younger audiences worldwide.",
+    "size": 65,
+    "reviews": 220,
+    "ratingAvg": 4.5,
+    "downloads": 400,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 50 },
+      { "name": "4 star", "count": 100 },
+      { "name": "5 star", "count": 150 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://static.vecteezy.com/system/resources/previews/018/910/687/non_2x/youtube-logo-youtube-icon-youtube-symbol-free-free-vector.jpg",
+    "title": "YouTube",
+    "companyName": "Google",
+    "description": "YouTube is a global video-sharing platform that allows users to upload, watch, and interact with videos. It provides personalized recommendations, playlists, subscriptions, live streaming, and community features. Users can explore educational content, music, entertainment, tutorials, and much more. YouTube also supports monetization for creators and offers analytics to track video performance. Millions of people worldwide use YouTube daily for entertainment, learning, and creative expression.",
+    "size": 100,
+    "reviews": 500,
+    "ratingAvg": 4.8,
+    "downloads": 600,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 500 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwDiicpDsawpNveT7Ota2-EC_vZbP8vneTbg&s",
+    "title": "Spotify",
+    "companyName": "Spotify Ltd.",
+    "description": "Spotify is a music streaming app that gives users access to millions of songs, podcasts, and playlists. Users can create personalized playlists, follow artists, discover new music, and enjoy offline listening. Spotify's algorithm provides music recommendations based on listening habits and preferences. It offers free and premium subscriptions, providing high-quality audio and an ad-free experience for premium users. The app is widely used for entertainment, relaxation, and music discovery.",
+    "size": 80,
+    "reviews": 400,
+    "ratingAvg": 4.7,
+    "downloads": 450,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 50 },
+      { "name": "4 star", "count": 120 },
+      { "name": "5 star", "count": 190 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://1000logos.net/wp-content/uploads/2016/10/Amazon-logo-meaning.jpg",
+    "title": "Amazon",
+    "companyName": "Amazon.com, Inc.",
+    "description": "Amazon is an e-commerce platform that allows users to browse and purchase a wide variety of products online. It offers features such as product reviews, ratings, recommendations, fast shipping, and secure payment options. Users can track orders, manage subscriptions, and access deals and discounts. The app provides a seamless shopping experience with customer support and easy returns. Millions of people worldwide rely on Amazon for convenient and reliable online shopping.",
+    "size": 90,
+    "reviews": 350,
+    "ratingAvg": 4.6,
+    "downloads": 500,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 120 },
+      { "name": "5 star", "count": 250 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://logos-world.net/wp-content/uploads/2022/01/Google-Maps-Icons-Logo-2015.png",
+    "title": "Google Maps",
+    "companyName": "Google",
+    "description": "Google Maps is a navigation and mapping app that helps users find locations, get directions, and explore places around the world. It provides real-time traffic updates, turn-by-turn navigation, satellite imagery, street view, and local business information. Users can save favorite locations, share directions, and discover nearby restaurants, hotels, and attractions. The app is widely used for travel planning, commuting, and exploring new areas safely and efficiently.",
+    "size": 95,
+    "reviews": 450,
+    "ratingAvg": 4.8,
+    "downloads": 550,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 70 },
+      { "name": "4 star", "count": 150 },
+      { "name": "5 star", "count": 300 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://static.vecteezy.com/system/resources/previews/042/148/616/non_2x/pinterest-logo-pinterest-social-media-icon-free-png.png",
+    "title": "Pinterest",
+    "companyName": "Pinterest, Inc.",
+    "description": "Pinterest is a visual discovery and bookmarking app that allows users to find ideas for home, fashion, recipes, travel, and more. Users can create boards, save pins, follow interests, and explore curated content. Pinterest helps users organize inspiration, plan projects, and discover creative ideas. The app integrates with social networks for sharing and collaboration, making it a popular tool for creative planning and lifestyle inspiration.",
+    "size": 70,
+    "reviews": 300,
+    "ratingAvg": 4.5,
+    "downloads": 400,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 50 },
+      { "name": "4 star", "count": 100 },
+      { "name": "5 star", "count": 220 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "https://images.ctfassets.net/4cd45et68cgf/Rx83JoRDMkYNlMC9MKzcB/2b14d5a59fc3937afd3f03191e19502d/Netflix-Symbol.png?w=700&h=456",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "description": "Netflix is a world-leading streaming service offering movies, TV shows, documentaries, and exclusive original content across multiple genres. Users can watch content in HD and 4K, download episodes for offline viewing, and receive recommendations tailored to their viewing habits. With profiles for multiple users, parental controls, and subtitles in multiple languages, Netflix provides a premium entertainment experience. The platform invests heavily in original productions, delivering award-winning content available across devices globally.",
+    "size": 120,
+    "reviews": 600,
+    "ratingAvg": 4.7,
+    "downloads": 700,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 180 },
+      { "name": "5 star", "count": 450 }
+    ]
+  },
+  {
+    "id": 17,
+    "image": "https://static.vecteezy.com/system/resources/previews/012/871/376/non_2x/zoom-logo-in-blue-colors-meetings-app-logotype-illustration-free-png.png",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications, Inc.",
+    "description": "Zoom is a leading video conferencing and collaboration platform that enables individuals and teams to connect seamlessly. It offers HD video and audio meetings, screen sharing, chat, and breakout rooms. Zoom is widely used for online classes, remote work, webinars, and global meetings. Its cross-platform compatibility ensures smooth communication across devices. With features like virtual backgrounds, meeting recording, and whiteboard collaboration, Zoom simplifies digital interaction for both professionals and students worldwide.",
+    "size": 95,
+    "reviews": 380,
+    "ratingAvg": 4.6,
+    "downloads": 500,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 60 },
+      { "name": "4 star", "count": 120 },
+      { "name": "5 star", "count": 300 }
+    ]
+  },
+  {
+    "id": 18,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnsmlq_wpi4ORZBH1xy5OWPD5J1feu8jNSsw&s",
+    "title": "Gmail",
+    "companyName": "Google LLC",
+    "description": "Gmail is Google’s email service trusted by billions of users worldwide for personal and professional communication. It provides advanced spam protection, automatic email categorization, and seamless integration with Google Workspace. Users can manage multiple accounts, schedule emails, and use AI-powered features like Smart Compose and Smart Reply to save time. With strong security, reliable storage, and search capabilities, Gmail remains a go-to email solution for productivity and organization.",
+    "size": 90,
+    "reviews": 520,
+    "ratingAvg": 4.8,
+    "downloads": 900,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 70 },
+      { "name": "4 star", "count": 180 },
+      { "name": "5 star", "count": 480 }
+    ]
+  },
+  {
+    "id": 19,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlJIOGtHi6yLhWs9gI0Bz1T83KoUzuqCQ7IQ&s",
+    "title": "Uber",
+    "companyName": "Uber Technologies, Inc.",
+    "description": "Uber is a ride-hailing app that connects passengers with drivers for convenient and safe transportation. Users can book rides instantly, track their driver in real-time, and pay securely through the app. Uber offers multiple ride options such as UberX, UberXL, and UberMoto. The app includes safety features like driver verification, trip sharing, and 24/7 support. With operations in hundreds of cities globally, Uber revolutionized urban mobility by making rides more accessible and affordable.",
+    "size": 85,
+    "reviews": 400,
+    "ratingAvg": 4.5,
+    "downloads": 750,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 70 },
+      { "name": "4 star", "count": 130 },
+      { "name": "5 star", "count": 330 }
+    ]
+  },
+  {
+    "id": 20,
+    "image": "https://d35aaqx5ub95lt.cloudfront.net/images/f2a2e608c854822ad2563a09595e7827.png",
+    "title": "Duolingo",
+    "companyName": "Duolingo, Inc.",
+    "description": "Duolingo is a language-learning app that helps users master new languages through gamified lessons and interactive exercises. It offers courses in over 30 languages, including Spanish, French, German, and Japanese. The app uses AI-driven feedback, streak tracking, and daily challenges to motivate learners. With listening, speaking, and grammar activities, Duolingo provides a complete and fun learning experience. Its colorful interface, engaging rewards, and bite-sized lessons make learning accessible for everyone, from beginners to advanced learners.",
+    "size": 70,
+    "reviews": 450,
+    "ratingAvg": 4.7,
+    "downloads": 680,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 50 },
+      { "name": "4 star", "count": 150 },
+      { "name": "5 star", "count": 350 }
+    ]
+  }
+]
