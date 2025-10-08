@@ -7,7 +7,7 @@ import { Link } from "react-router";
 
 const Banner = () => {
   return (
-    <div className="hero bg-base-200 p-20">
+    <div className="hero bg-base-200 px-20 pt-20 ">
       <div className="hero-content text-center">
 
         {/* Titel Section  */}
@@ -30,7 +30,7 @@ const Banner = () => {
 
           {/* Banner Img Section  */}
           <div>
-            <img className="w-8/12 mx-auto mt-8" src={hero} alt="" />
+            <img className="w-9/12 mx-auto mt-8" src={hero} alt="" />
           </div>
 
         </div>
