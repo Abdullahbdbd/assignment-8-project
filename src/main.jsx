@@ -5,6 +5,8 @@ import { createBrowserRouter } from "react-router";
 import { RouterProvider } from "react-router/dom";
 import Root from "./Component/Root/Root";
 import Home from "./Component/Home Container/Home/Home";
+import AllApps from "./Component/Apps Container/All Apps/AllApps";
+import AppDetails from "./Component/App Details/AppDetails";
 
 
 
@@ -13,7 +15,16 @@ const router = createBrowserRouter([
     path: "/",
     Component: Root,
     children: [
-      { index: true, path: "/", Component: Home } 
+      { index: true, path: "/", Component: Home } ,
+      {
+        path: '/apps',
+        Component: AllApps
+      },
+      {
+        path: '/apps/:Id',
+        loader:()=>fetch('/Data.json'),
+        Component: AppDetails
+      }
     ],
   },
   {

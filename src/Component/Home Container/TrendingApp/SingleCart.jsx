@@ -1,10 +1,12 @@
 import React from "react";
 import { FaStar } from "react-icons/fa";
 import { GoDownload } from "react-icons/go";
+import { Link } from "react-router";
 
 const SingleCart = ({ cart }) => {
-  const { image, title, ratingAvg, downloads } = cart;
+  const { id, image, title, ratingAvg, downloads } = cart;
   return (
+    <Link to={`/apps/${id}`}>
     <div className="card bg-base-100 shadow-sm p-3">
       <figure>
         <img
@@ -23,6 +25,7 @@ const SingleCart = ({ cart }) => {
         </div>
       </div>
     </div>
+    </Link>
   );
 };
 

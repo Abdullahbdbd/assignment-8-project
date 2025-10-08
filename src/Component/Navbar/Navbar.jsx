@@ -31,13 +31,13 @@ const Navbar = () => {
               className="menu menu-sm text-xs gap-2 dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
               <li>
-                <a>Home</a>
+                <Link to='/'>Home</Link>
               </li>
               <li>
-                <a>Apps</a>
+                <Link to='/apps'>Apps</Link>
               </li>
               <li>
-                <a>Installation</a>
+                <Link>Installation</Link>
               </li>
             </ul>
           </div>
@@ -51,10 +51,10 @@ const Navbar = () => {
           <div className="hidden lg:flex">
             <ul className="menu menu-horizontal pr-5 gap-2 text-xs">
               <li>
-                <a>Home</a>
+                <Link to='/'>Home</Link>
               </li>
               <li>
-                <a>Apps</a>
+               <Link to='/apps'>Apps</Link>
               </li>
               <li>
                 <a>Installation</a>
