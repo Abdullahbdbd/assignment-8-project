@@ -4,7 +4,7 @@ import './index.css'
 import { createBrowserRouter } from "react-router";
 import { RouterProvider } from "react-router/dom";
 import Root from './Component/Root/Root';
-import Home from './Component/Home/Home';
+import Home from './Component/Home Container/Home/Home';
 
 
 
