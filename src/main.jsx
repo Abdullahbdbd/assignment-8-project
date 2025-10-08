@@ -1,30 +1,37 @@
-import { StrictMode, Suspense } from "react";
+import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import { createBrowserRouter } from "react-router";
-import { RouterProvider } from "react-router/dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Root from "./Component/Root/Root";
 import Home from "./Component/Home Container/Home/Home";
 import AllApps from "./Component/Apps Container/All Apps/AllApps";
 import AppDetails from "./Component/App Details/AppDetails";
-
-
+import ScrollToTop from "./Component/ScrollToTop/ScrollToTop";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    Component: Root,
+    element: (
+      <>
+        <ScrollToTop />
+        <Root />
+      </>
+    ),
+
     children: [
-      { index: true, path: "/", Component: Home } ,
+      { index: true, path: "/", Component: Home },
+
       {
-        path: '/apps',
-        Component: AllApps
+        path: "/apps",
+        loader: () => fetch("Data.json"),
+        Component: AllApps,
       },
+
       {
-        path: '/apps/:Id',
-        loader:()=>fetch('/Data.json'),
-        Component: AppDetails
-      }
+        path: "/apps/:Id",
+        loader: () => fetch("/Data.json"),
+        Component: AppDetails,
+      },
     ],
   },
   {

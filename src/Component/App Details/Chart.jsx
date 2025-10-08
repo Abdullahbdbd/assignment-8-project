@@ -2,8 +2,6 @@ import React from 'react';
 import { BarChart, Bar, ResponsiveContainer, XAxis, YAxis, Tooltip } from 'recharts';
 
 const Chart = ({ratings}) => {
-    console.log(ratings);
-    
     
   return (
     <div className="w-full h-80">

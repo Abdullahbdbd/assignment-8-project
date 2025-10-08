@@ -48,13 +48,13 @@ const AppDetails = () => {
             <div>
               <img src={ratingsIcon} alt="" />
               <p className="text-[#627382] text-sm my-2">Average Ratings</p>
-              <h3 className="text-3xl font-extrabold">{ratingAvg}M</h3>
+              <h3 className="text-3xl font-extrabold">{ratingAvg}</h3>
             </div>
             <div>
                 
               <img src={reviewIcon} alt="" />
               <p className="text-[#627382] text-sm my-2">Total Reviews</p>
-              <h3 className="text-3xl font-extrabold">{reviews}M</h3>
+              <h3 className="text-3xl font-extrabold">{reviews}</h3>
             </div>
           </div>
 

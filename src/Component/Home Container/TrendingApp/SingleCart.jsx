@@ -16,7 +16,7 @@ const SingleCart = ({ cart }) => {
         />
       </figure>
       <div className="">
-        <h2 className="mt-2 text-md font-semibold">
+        <h2 className="mt-5 mb-2 text-md font-semibold">
            {title}
         </h2>
         <div className="flex justify-between mt-2">
