@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import { useLoaderData } from "react-router";
 import SingleCart from "../../Home Container/TrendingApp/SingleCart";
+import AppNotFound from "../../Error/AppNotFound";
 
 const AllApps = () => {
-  const data = useLoaderData();
+    const data = useLoaderData();
+    const [search, setSearch] = useState('')
+    const term = search.trim().toLowerCase()
+    const searchedProducts = term
+    ? data.filter(product =>
+        product.title.toLowerCase().includes(term)
+      )
+    : data;
 
   return (
     <div className="w-11/12 mx-auto">
@@ -21,7 +29,7 @@ const AllApps = () => {
 
       {/* length and search section  */}
       <div className="mt-12 flex justify-between items-center">
-        <h2 className="font-bold">({data.length}) Apps Found</h2>
+        <h2 className="font-bold">({searchedProducts.length}) Apps Found</h2>
 
         <label className="input">
           <svg
@@ -40,18 +48,23 @@ const AllApps = () => {
               <path d="m21 21-4.3-4.3"></path>
             </g>
           </svg>
-          <input type="search" required placeholder="Search" />
+
+          <input value={search} onChange={(e)=>setSearch(e.target.value)} type="search" required placeholder="Search" />
         </label>
       </div>
 
-      <div className="md:grid grid-cols-4 gap-5 w-11/12 mx-auto pt-6 pb-15">
+     {
+        searchedProducts.length === 0 ? <AppNotFound></AppNotFound> :
+        ( <div className="md:grid grid-cols-4 gap-5 w-11/12 mx-auto pt-6 pb-15">
         {
-          data.map(cart=><SingleCart 
+          searchedProducts.map(cart=><SingleCart 
             key={cart.id} 
             cart={cart}
             ></SingleCart>)
         }
-      </div>
+      </div>)
+     }  
+     
     </div>
   );
 };
