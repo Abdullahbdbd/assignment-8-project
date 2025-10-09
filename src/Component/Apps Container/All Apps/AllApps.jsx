@@ -1,21 +1,35 @@
-import React, { useState } from "react";
-import { useLoaderData } from "react-router";
+import React, { useState, useEffect } from "react";
+import { useLoaderData } from "react-router-dom";
 import SingleCart from "../../Home Container/TrendingApp/SingleCart";
 import AppNotFound from "../../Error/AppNotFound";
+import { Bars } from "react-loader-spinner";
 
 const AllApps = () => {
-    const data = useLoaderData();
-    const [search, setSearch] = useState('')
-    const term = search.trim().toLowerCase()
-    const searchedProducts = term
-    ? data.filter(product =>
-        product.title.toLowerCase().includes(term)
-      )
-    : data;
+  const data = useLoaderData();
+  const [search, setSearch] = useState("");
+  const [filteredData, setFilteredData] = useState(data);
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    setLoading(true);
+
+    setTimeout(() => {
+      const term = search.trim().toLowerCase();
+
+      const result = term
+        ? data.filter((product) =>
+            product.title.toLowerCase().includes(term)
+          )
+        : data;
+
+      setFilteredData(result);
+      setLoading(false);
+    }, 300); 
+  }, [search, data]);
 
   return (
     <div className="w-11/12 mx-auto">
-      {/* All Apps Title  */}
+      {/* Title */}
       <div className="text-center pt-20">
         <h1 className="text-3xl font-extrabold text-[#001931]">
           Our All Applications
@@ -27,9 +41,9 @@ const AllApps = () => {
         </p>
       </div>
 
-      {/* length and search section  */}
+      {/* Search + count */}
       <div className="mt-12 flex justify-between items-center">
-        <h2 className="font-bold">({searchedProducts.length}) Apps Found</h2>
+        <h2 className="font-bold">({filteredData.length}) Apps Found</h2>
 
         <label className="input">
           <svg
@@ -49,22 +63,29 @@ const AllApps = () => {
             </g>
           </svg>
 
-          <input value={search} onChange={(e)=>setSearch(e.target.value)} type="search" required placeholder="Search" />
+          <input
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            type="search"
+            placeholder="Search"
+          />
         </label>
       </div>
 
-     {
-        searchedProducts.length === 0 ? <AppNotFound></AppNotFound> :
-        ( <div className="md:grid grid-cols-4 gap-5 w-11/12 mx-auto pt-6 pb-15">
-        {
-          searchedProducts.map(cart=><SingleCart 
-            key={cart.id} 
-            cart={cart}
-            ></SingleCart>)
-        }
-      </div>)
-     }  
-     
+      {/* Loading + Results */}
+      {loading ? (
+        <div className="flex justify-center items-center h-64">
+          <Bars height="80" width="80" color="#632EE3" visible={true} />
+        </div>
+      ) : filteredData.length === 0 ? (
+        <AppNotFound />
+      ) : (
+        <div className="md:grid grid-cols-4 gap-5 w-11/12 mx-auto pt-6 pb-15">
+          {filteredData.map((cart) => (
+            <SingleCart key={cart.id} cart={cart} />
+          ))}
+        </div>
+      )}
     </div>
   );
 };

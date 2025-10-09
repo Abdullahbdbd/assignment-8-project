@@ -21,7 +21,12 @@ const router = createBrowserRouter([
     ),
 
     children: [
-      { index: true, path: "/", Component: Home },
+      { index: true, path: "/",
+         loader: async () => {
+          await new Promise(res => setTimeout(res, 100));
+          return null;
+        },
+        Component: Home },
 
       {
         path: "/apps",
