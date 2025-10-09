@@ -8,6 +8,7 @@ import AllApps from "./Component/Apps Container/All Apps/AllApps";
 import AppDetails from "./Component/App Details/AppDetails";
 import ScrollToTop from "./Component/ScrollToTop/ScrollToTop";
 import Error from "./Component/Error/Error";
+import InstallApps from "./Component/InstallApps/InstallApps";
 
 const router = createBrowserRouter([
   {
@@ -37,6 +38,11 @@ const router = createBrowserRouter([
           return res.json();
         },
         Component: AppDetails,
+      },
+      {
+        path: "/installApps",
+        loader:()=>fetch('/Data.json'),
+        Component: InstallApps,
       },
 
       {

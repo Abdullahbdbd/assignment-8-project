@@ -9,10 +9,10 @@ const AppNotFound = () => {
             <h3 className='text-3xl font-bold mt-10'>Oops, App not found!</h3>
             <p className='text-[#627382] text-sm p-2'>The App you are looking for is not available.</p>
 
-            <Link to='/' 
+            <Link to='/apps' 
                   className="btn btn-md text-xs text-white bg-[linear-gradient(125.07deg,#632EE3,#9F62F2)]"
             >
-          Go Home 
+          Go Apps 
           </Link>
         </div>
     );

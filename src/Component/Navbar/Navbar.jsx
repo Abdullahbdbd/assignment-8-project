@@ -1,7 +1,8 @@
 import React from "react";
 import logo from '../../assets/logo.png'
-import { Link } from "react-router";
+import { Link, NavLink } from "react-router";
 import { FaGithub } from "react-icons/fa";
+import './Navber.css'
 
 const Navbar = () => {
   return (
@@ -31,13 +32,13 @@ const Navbar = () => {
               className="menu menu-sm text-xs gap-2 dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
               <li>
-                <Link to='/'>Home</Link>
+                <NavLink to='/'>Home</NavLink>
               </li>
               <li>
-                 <Link to='/apps'>Apps</Link>
+                 <NavLink to='/apps'>Apps</NavLink>
               </li>
               <li>
-                <Link>Installation</Link>
+                <NavLink to='/installApps'>Installation</NavLink>
               </li>
             </ul>
           </div>
@@ -51,13 +52,13 @@ const Navbar = () => {
           <div className="hidden lg:flex">
             <ul className="menu menu-horizontal pr-5 gap-2 text-xs">
               <li>
-                <Link to='/'>Home</Link>
+                <NavLink to='/'>Home</NavLink>
               </li>
               <li>
-               <Link to='/apps'>Apps</Link>
+               <NavLink to='/apps'>Apps</NavLink>
               </li>
               <li>
-                <a>Installation</a>
+                <NavLink to='/installApps'>Installation</NavLink>
               </li>
             </ul>
           </div>
