@@ -1,7 +1,7 @@
 # HERO.IO - App Store Dashboard
 
 ## Live Demo
-Check out the live demo of the application here: [Live Demo](https://your-live-link.netlify.app)
+Check out the live demo of the application here: [Live Demo](https://precious-alfajores-377c46.netlify.app/)
 
 
 ## Description
