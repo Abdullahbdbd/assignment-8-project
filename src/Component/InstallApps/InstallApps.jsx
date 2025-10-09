@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { useLoaderData } from "react-router";
-import { getStoredApps } from "../../utility/addToDB";
+import { getStoredApps, removeFromWishlist } from "../../utility/addToDB";
 import downImg from "../../assets/down.png";
 import InstallApp from "./InstallApp";
+import { toast } from "react-toastify";
 
 const InstallApps = () => {
   const [installList, setInstallList] = useState([]);
@@ -33,7 +34,11 @@ const InstallApps = () => {
   };
 
 
-
+  const handleRemove = (id) => {
+  removeFromWishlist(id); 
+  setInstallList(prev => prev.filter(p => p.id !== id)); 
+  toast.success('App Are Uninstalled')
+}
 
   return (
     <div className="w-11/12 mx-auto">
@@ -80,7 +85,7 @@ const InstallApps = () => {
       {/* all cart  */}
       <div className="pb-10">
         {installList.map((cart) => (
-          <InstallApp key={cart.id} cart={cart}></InstallApp>
+          <InstallApp key={cart.id} cart={cart} handleRemove={handleRemove}></InstallApp>
         ))}
       </div>
     </div>

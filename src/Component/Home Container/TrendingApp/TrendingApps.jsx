@@ -1,5 +1,4 @@
 import { use } from "react";
-import { LuGoal } from "react-icons/lu";
 import SingleCart from "./SingleCart";
 import { Link } from "react-router";
 
@@ -12,7 +11,7 @@ const TrendingApps = ({ tAData }) => {
       {/* Trending Apps Cart  */}
       <div className="text-center">
         <h2 className="text-2xl font-bold mb-2">Trending Apps</h2>
-        <p className="text-[#627382] text-sm mb-5">
+        <p className="text-[#627382] text-xs mb-8">
           Explore All Trending Apps on the Market developed by us
         </p>
       </div>

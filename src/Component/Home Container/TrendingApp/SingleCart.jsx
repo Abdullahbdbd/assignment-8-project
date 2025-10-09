@@ -7,7 +7,7 @@ const SingleCart = ({ cart }) => {
   const { id, image, title, ratingAvg, downloads } = cart;
   return (
     <Link to={`/apps/${id}`}>
-    <div className="card bg-base-100 shadow-sm p-3">
+    <div className="card bg-base-100 shadow-sm p-3 my-6 md:my-0 w-9/12 md:w-full mx-auto">
       <figure>
         <img
         className="h-[220px] w-full"

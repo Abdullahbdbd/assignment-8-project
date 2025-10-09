@@ -14,7 +14,7 @@ const tAData = fetch("/Data.json").then((res) => res.json());
         <Banner></Banner>
         <States></States>
         <ScrollToTop />
-        <Suspense fallback={<h1>Loading........</h1>}>
+        <Suspense fallback={''}>
         <TrendingApps tAData={tAData}></TrendingApps>
         </Suspense>
     </div>

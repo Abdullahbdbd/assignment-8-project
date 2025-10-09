@@ -42,10 +42,10 @@ const AllApps = () => {
       </div>
 
       {/* Search + count */}
-      <div className="mt-12 flex justify-between items-center">
-        <h2 className="font-bold">({filteredData.length}) Apps Found</h2>
+      <div className="mt-12 md:flex justify-between items-center">
+        <h2 className="font-bold text-center">({filteredData.length}) Apps Found</h2>
 
-        <label className="input">
+        <label className="input ml-10 md:ml-0">
           <svg
             className="h-[1em] opacity-50"
             xmlns="http://www.w3.org/2000/svg"

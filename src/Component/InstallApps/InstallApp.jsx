@@ -2,8 +2,9 @@ import React from 'react';
 import { FaStar } from 'react-icons/fa';
 import { GoDownload } from 'react-icons/go';
 
-const InstallApp = ({cart}) => {
+const InstallApp = ({cart, handleRemove}) => {
     const {
+    id, 
     image,
     title,
     downloads,
@@ -29,7 +30,10 @@ const InstallApp = ({cart}) => {
                             </div>
                     </div>
 
-                <button className="btn bg-[#00d390] text-white">Uninstall </button>
+                <button 
+                onClick={()=>handleRemove(id)}
+                className="btn bg-[#00d390] text-white"
+                >Uninstall </button>
 
 
                </li>

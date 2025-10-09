@@ -7,7 +7,7 @@ import { Link } from "react-router";
 
 const Banner = () => {
   return (
-    <div className="hero bg-base-200 px-20 pt-20 ">
+    <div className="hero bg-base-200 md:px-20 pt-20 ">
       <div className="hero-content text-center">
 
         {/* Titel Section  */}
@@ -18,8 +18,8 @@ const Banner = () => {
              Productive 
             </span> Apps
           </h1>
-          <p className="py-6 text-[#627382]">
-           At HERO.IO , we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. <br />Our goal is to turn your ideas into digital experiences that truly make an impact.
+          <p className="py-6 text-[#627382] text-xs">
+           At HERO.IO , we craft innovative apps designed to make everyday life simpler, smarter, and more <br /> exciting.Our goal is to turn your ideas into digital experiences that truly make an impact.
           </p>
 
 
